@@ -1,0 +1,565 @@
+[p LITE_MODE AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F18326 ]
+[d frameptr 6 ]
+"77 C:\Users\Raphael\Google Drive\pvt\ads1231_lib.X\mcc_generated_files/spi1.c
+[e E343 . `uc
+MASTER0_CONFIG 0
+SPI1_DEFAULT 1
+]
+"54 C:\Users\Raphael\Google Drive\pvt\ads1231_lib.X\main.c
+[e E6643 . `uc
+MASTER0_CONFIG 0
+SPI1_DEFAULT 1
+]
+"36 C:\Users\Raphael\Google Drive\pvt\ads1231_lib.X\mcc_generated_files/drivers/spi_master.c
+[e E343 . `uc
+MASTER0_CONFIG 0
+SPI1_DEFAULT 1
+]
+"40
+[e E365 . `uc
+MASTER0 0
+]
+"24 C:\Users\Raphael\Google Drive\pvt\ads1231_lib.X\ads1231.c
+[v _ADS1231_is_ready ADS1231_is_ready `(uc  1 e 1 0 ]
+"29
+[v _ADS1231_read ADS1231_read `(l  1 e 4 0 ]
+"1 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\abs.c
+[v _abs abs `(i  1 e 2 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\almod.c
+[v ___almod __almod `(l  1 e 4 0 ]
+"72 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\doprnt.c
+[v _pad pad `(i  1 s 2 pad ]
+"274
+[v _dtoa dtoa `(i  1 s 2 dtoa ]
+"670
+[v _vfpfcnvrt vfpfcnvrt `(i  1 s 2 vfpfcnvrt ]
+"1368
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\printf.c
+[v _printf printf `(i  1 e 2 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"12 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"50 C:\Users\Raphael\Google Drive\pvt\ads1231_lib.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"35 C:\Users\Raphael\Google Drive\pvt\ads1231_lib.X\mcc_generated_files/drivers/spi_master.c
+[v _MASTER0_open MASTER0_open `(a  1 e 1 0 ]
+"66 C:\Users\Raphael\Google Drive\pvt\ads1231_lib.X\mcc_generated_files/eusart.c
+[v _EUSART_Initialize EUSART_Initialize `(v  1 e 1 0 ]
+"94
+[v _EUSART_is_tx_ready EUSART_is_tx_ready `(a  1 e 1 0 ]
+"99
+[v _EUSART_is_rx_ready EUSART_is_rx_ready `(a  1 e 1 0 ]
+"104
+[v _EUSART_is_tx_done EUSART_is_tx_done `(a  1 e 1 0 ]
+"113
+[v _EUSART_Read EUSART_Read `(uc  1 e 1 0 ]
+"132
+[v _EUSART_Write EUSART_Write `(v  1 e 1 0 ]
+"146
+[v _putch putch `(v  1 e 1 0 ]
+"153
+[v _EUSART_DefaultFramingErrorHandler EUSART_DefaultFramingErrorHandler `(v  1 e 1 0 ]
+"155
+[v _EUSART_DefaultOverrunErrorHandler EUSART_DefaultOverrunErrorHandler `(v  1 e 1 0 ]
+"163
+[v _EUSART_DefaultErrorHandler EUSART_DefaultErrorHandler `(v  1 e 1 0 ]
+"166
+[v _EUSART_SetFramingErrorHandler EUSART_SetFramingErrorHandler `(v  1 e 1 0 ]
+"170
+[v _EUSART_SetOverrunErrorHandler EUSART_SetOverrunErrorHandler `(v  1 e 1 0 ]
+"174
+[v _EUSART_SetErrorHandler EUSART_SetErrorHandler `(v  1 e 1 0 ]
+"50 C:\Users\Raphael\Google Drive\pvt\ads1231_lib.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"61
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"75
+[v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
+"81
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+"55 C:\Users\Raphael\Google Drive\pvt\ads1231_lib.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"63 C:\Users\Raphael\Google Drive\pvt\ads1231_lib.X\mcc_generated_files/spi1.c
+[v _SPI1_Initialize SPI1_Initialize `(v  1 e 1 0 ]
+"77
+[v _SPI1_Open SPI1_Open `(a  1 e 1 0 ]
+"92
+[v _SPI1_Close SPI1_Close `(v  1 e 1 0 ]
+"97
+[v _SPI1_ExchangeByte SPI1_ExchangeByte `(uc  1 e 1 0 ]
+"105
+[v _SPI1_ExchangeBlock SPI1_ExchangeBlock `(v  1 e 1 0 ]
+"116
+[v _SPI1_WriteBlock SPI1_WriteBlock `(v  1 e 1 0 ]
+"125
+[v _SPI1_ReadBlock SPI1_ReadBlock `(v  1 e 1 0 ]
+"134
+[v _SPI1_WriteByte SPI1_WriteByte `(v  1 e 1 0 ]
+"139
+[v _SPI1_ReadByte SPI1_ReadByte `(uc  1 e 1 0 ]
+[s S511 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+]
+"399 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f18326.h
+[u S518 . 1 `S511 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES518  1 e 1 @12 ]
+[s S81 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 BCL1IF 1 0 :1:2 
+`uc 1 SSP1IF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 TMR1GIF 1 0 :1:7 
+]
+"534
+[u S90 . 1 `S81 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES90  1 e 1 @17 ]
+"1499
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+"1544
+[v _TRISC TRISC `VEuc  1 e 1 @142 ]
+[s S33 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+]
+"1559
+[u S40 . 1 `S33 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES40  1 e 1 @142 ]
+"1875
+[v _WDTCON WDTCON `VEuc  1 e 1 @151 ]
+"2191
+[v _LATA LATA `VEuc  1 e 1 @268 ]
+"2236
+[v _LATC LATC `VEuc  1 e 1 @270 ]
+"2779
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+"2824
+[v _ANSELC ANSELC `VEuc  1 e 1 @398 ]
+"2895
+[v _RC1REG RC1REG `VEuc  1 e 1 @409 ]
+"2949
+[v _TX1REG TX1REG `VEuc  1 e 1 @410 ]
+"3010
+[v _SP1BRGL SP1BRGL `VEuc  1 e 1 @411 ]
+"3080
+[v _SP1BRGH SP1BRGH `VEuc  1 e 1 @412 ]
+"3134
+[v _RC1STA RC1STA `VEuc  1 e 1 @413 ]
+[s S227 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"3160
+[u S236 . 1 `S227 1 . 1 0 ]
+[v _RC1STAbits RC1STAbits `VES236  1 e 1 @413 ]
+"3314
+[v _TX1STA TX1STA `VEuc  1 e 1 @414 ]
+[s S206 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"3340
+[u S215 . 1 `S206 1 . 1 0 ]
+[v _TX1STAbits TX1STAbits `VES215  1 e 1 @414 ]
+"3494
+[v _BAUD1CON BAUD1CON `VEuc  1 e 1 @415 ]
+"3740
+[v _WPUA WPUA `VEuc  1 e 1 @524 ]
+"3790
+[v _WPUC WPUC `VEuc  1 e 1 @526 ]
+"3840
+[v _SSP1BUF SSP1BUF `VEuc  1 e 1 @529 ]
+"4094
+[v _SSP1ADD SSP1ADD `VEuc  1 e 1 @530 ]
+"4602
+[v _SSP1STAT SSP1STAT `VEuc  1 e 1 @532 ]
+"4724
+[v _SSP1CON1 SSP1CON1 `VEuc  1 e 1 @533 ]
+[s S50 . 1 `uc 1 SSPM 1 0 :4:0 
+`uc 1 CKP 1 0 :1:4 
+`uc 1 SSPEN 1 0 :1:5 
+`uc 1 SSPOV 1 0 :1:6 
+`uc 1 WCOL 1 0 :1:7 
+]
+"4757
+[s S56 . 1 `uc 1 SSPM0 1 0 :1:0 
+`uc 1 SSPM1 1 0 :1:1 
+`uc 1 SSPM2 1 0 :1:2 
+`uc 1 SSPM3 1 0 :1:3 
+]
+[u S61 . 1 `S50 1 . 1 0 `S56 1 . 1 0 ]
+[v _SSP1CON1bits SSP1CON1bits `VES61  1 e 1 @533 ]
+"4994
+[v _SSP1CON2 SSP1CON2 `VEuc  1 e 1 @534 ]
+"5946
+[v _ODCONA ODCONA `VEuc  1 e 1 @652 ]
+"5991
+[v _ODCONC ODCONC `VEuc  1 e 1 @654 ]
+"6445
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @780 ]
+"6490
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @782 ]
+"6856
+[v _INLVLA INLVLA `VEuc  1 e 1 @908 ]
+"6906
+[v _INLVLC INLVLC `VEuc  1 e 1 @910 ]
+"11575
+[v _PMD0 PMD0 `VEuc  1 e 1 @2321 ]
+"11620
+[v _PMD1 PMD1 `VEuc  1 e 1 @2322 ]
+"11682
+[v _PMD2 PMD2 `VEuc  1 e 1 @2323 ]
+"11722
+[v _PMD3 PMD3 `VEuc  1 e 1 @2324 ]
+"11784
+[v _PMD4 PMD4 `VEuc  1 e 1 @2325 ]
+"11818
+[v _PMD5 PMD5 `VEuc  1 e 1 @2326 ]
+"11927
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @2329 ]
+"12067
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @2331 ]
+"12164
+[v _OSCEN OSCEN `VEuc  1 e 1 @2333 ]
+"12210
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @2334 ]
+"12268
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @2335 ]
+"13166
+[v _SSP1CLKPPS SSP1CLKPPS `VEuc  1 e 1 @3616 ]
+"13218
+[v _SSP1DATPPS SSP1DATPPS `VEuc  1 e 1 @3617 ]
+"13322
+[v _RXPPS RXPPS `VEuc  1 e 1 @3620 ]
+"13922
+[v _RA5PPS RA5PPS `VEuc  1 e 1 @3733 ]
+"14130
+[v _RC3PPS RC3PPS `VEuc  1 e 1 @3747 ]
+"55 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\doprnt.c
+[v _flags flags `i  1 s 2 flags ]
+[v _prec prec `i  1 s 2 prec ]
+[v _width width `i  1 s 2 width ]
+"66
+[v _dbuf dbuf `[32]uc  1 s 32 dbuf ]
+"69
+[v _nout nout `i  1 s 2 nout ]
+[s S148 . 1 `uc 1 perr 1 0 :1:0 
+`uc 1 ferr 1 0 :1:1 
+`uc 1 oerr 1 0 :1:2 
+`uc 1 reserved 1 0 :5:3 
+]
+"52 C:\Users\Raphael\Google Drive\pvt\ads1231_lib.X\mcc_generated_files/eusart.c
+[u S153 . 1 `S148 1 . 1 0 `uc 1 status 1 0 ]
+[v _eusartRxLastError eusartRxLastError `VES153  1 e 1 0 ]
+"58
+[v _EUSART_FramingErrorHandler EUSART_FramingErrorHandler `*.37(v  1 e 2 0 ]
+"59
+[v _EUSART_OverrunErrorHandler EUSART_OverrunErrorHandler `*.37(v  1 e 2 0 ]
+"60
+[v _EUSART_ErrorHandler EUSART_ErrorHandler `*.37(v  1 e 2 0 ]
+[s S22 . 4 `uc 1 con1 1 0 `uc 1 stat 1 1 `uc 1 add 1 2 `uc 1 operation 1 3 ]
+"58 C:\Users\Raphael\Google Drive\pvt\ads1231_lib.X\mcc_generated_files/spi1.c
+[v _spi1_configuration spi1_configuration `DC[2]S22  1 s 8 spi1_configuration ]
+"50 C:\Users\Raphael\Google Drive\pvt\ads1231_lib.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"79
+[v main@reading reading `f  1 a 4 65 ]
+"87
+} 0
+"5 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\printf.c
+[v _printf printf `(i  1 e 2 0 ]
+{
+"7
+[v printf@ret ret `i  1 a 2 62 ]
+"8
+[v printf@ap ap `[1]*.4v  1 a 1 64 ]
+"5
+[v printf@fmt fmt `*.25DCuc  1 p 2 56 ]
+"13
+} 0
+"1368 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\doprnt.c
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+{
+[s S684 _IO_FILE 0 ]
+[v vfprintf@fp fp `*.1S684  1 a 1 wreg ]
+"1371
+[v vfprintf@cfmt cfmt `*.25uc  1 a 2 54 ]
+"1368
+[v vfprintf@fp fp `*.1S684  1 a 1 wreg ]
+[v vfprintf@fmt fmt `*.25DCuc  1 p 2 48 ]
+[v vfprintf@ap ap `*.4*.4v  1 p 1 50 ]
+"1373
+"1368
+[v vfprintf@fp fp `*.1S684  1 a 1 53 ]
+"1382
+} 0
+"670
+[v _vfpfcnvrt vfpfcnvrt `(i  1 s 2 vfpfcnvrt ]
+{
+[s S684 _IO_FILE 0 ]
+[v vfpfcnvrt@fp fp `*.1S684  1 a 1 wreg ]
+"674
+[v vfpfcnvrt@ll ll `l  1 a 4 43 ]
+"670
+[v vfpfcnvrt@fp fp `*.1S684  1 a 1 wreg ]
+[v vfpfcnvrt@fmt fmt `*.4*.25uc  1 p 1 36 ]
+[v vfpfcnvrt@ap ap `*.4*.4v  1 p 1 37 ]
+"680
+"670
+[v vfpfcnvrt@fp fp `*.1S684  1 a 1 47 ]
+"1365
+} 0
+"274
+[v _dtoa dtoa `(i  1 s 2 dtoa ]
+{
+[s S684 _IO_FILE 0 ]
+[v dtoa@fp fp `*.1S684  1 a 1 wreg ]
+"277
+[v dtoa@n n `l  1 a 4 30 ]
+"276
+[v dtoa@i i `i  1 a 2 34 ]
+[v dtoa@s s `i  1 a 2 28 ]
+[v dtoa@w w `i  1 a 2 26 ]
+[v dtoa@p p `i  1 a 2 23 ]
+"274
+[v dtoa@fp fp `*.1S684  1 a 1 wreg ]
+[v dtoa@d d `l  1 p 4 15 ]
+"280
+"274
+[v dtoa@fp fp `*.1S684  1 a 1 25 ]
+"315
+} 0
+"72
+[v _pad pad `(i  1 s 2 pad ]
+{
+[s S684 _IO_FILE 0 ]
+[v pad@fp fp `*.1S684  1 a 1 wreg ]
+"74
+[v pad@w w `i  1 a 2 12 ]
+[v pad@i i `i  1 a 2 10 ]
+"72
+[v pad@fp fp `*.1S684  1 a 1 wreg ]
+[v pad@buf buf `*.4uc  1 p 1 7 ]
+[v pad@p p `i  1 p 2 8 ]
+"77
+"72
+[v pad@fp fp `*.1S684  1 a 1 14 ]
+"95
+} 0
+"12 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+{
+[v strlen@s s `*.4DCuc  1 a 1 wreg ]
+"14
+[v strlen@a a `*.4DCuc  1 a 1 6 ]
+"12
+[v strlen@s s `*.4DCuc  1 a 1 wreg ]
+"14
+[v strlen@s s `*.4DCuc  1 a 1 7 ]
+"26
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+{
+[v fputs@s s `*.4DCuc  1 a 1 wreg ]
+"11
+[v fputs@i i `i  1 a 2 4 ]
+"10
+[v fputs@c c `uc  1 a 1 3 ]
+"8
+[v fputs@s s `*.4DCuc  1 a 1 wreg ]
+[s S1025 _IO_FILE 5 `*.1uc 1 buffer 1 0 `i 1 count 2 1 `i 1 limit 2 3 ]
+[v fputs@fp fp `*.1S1025  1 p 1 11 ]
+"13
+[v fputs@s s `*.4DCuc  1 a 1 6 ]
+"19
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+{
+[v fputc@c c `i  1 p 2 3 ]
+[s S1025 _IO_FILE 5 `*.1uc 1 buffer 1 0 `i 1 count 2 1 `i 1 limit 2 3 ]
+[v fputc@fp fp `*.1S1025  1 p 1 5 ]
+"21
+} 0
+"146 C:\Users\Raphael\Google Drive\pvt\ads1231_lib.X\mcc_generated_files/eusart.c
+[v _putch putch `(v  1 e 1 0 ]
+{
+[v putch@txData txData `uc  1 a 1 wreg ]
+[v putch@txData txData `uc  1 a 1 wreg ]
+"148
+[v putch@txData txData `uc  1 a 1 2 ]
+"149
+} 0
+"132
+[v _EUSART_Write EUSART_Write `(v  1 e 1 0 ]
+{
+[v EUSART_Write@txData txData `uc  1 p 1 0 ]
+"139
+} 0
+"1 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\abs.c
+[v _abs abs `(i  1 e 2 0 ]
+{
+[v abs@a a `i  1 p 2 11 ]
+"4
+} 0
+"5 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\almod.c
+[v ___almod __almod `(l  1 e 4 0 ]
+{
+"10
+[v ___almod@sign sign `uc  1 a 1 10 ]
+[v ___almod@counter counter `uc  1 a 1 9 ]
+"5
+[v ___almod@divisor divisor `l  1 p 4 0 ]
+[v ___almod@dividend dividend `l  1 p 4 4 ]
+"34
+} 0
+"5 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+{
+"10
+[v ___aldiv@quotient quotient `l  1 a 4 2 ]
+"11
+[v ___aldiv@sign sign `uc  1 a 1 1 ]
+[v ___aldiv@counter counter `uc  1 a 1 0 ]
+"5
+[v ___aldiv@divisor divisor `l  1 p 4 0 ]
+[v ___aldiv@dividend dividend `l  1 p 4 4 ]
+"41
+} 0
+"10 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+"13
+[v ___xxtofl@arg arg `ul  1 a 4 10 ]
+"12
+[v ___xxtofl@exp exp `uc  1 a 1 9 ]
+"10
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+[v ___xxtofl@val val `l  1 p 4 0 ]
+"15
+[v ___xxtofl@sign sign `uc  1 a 1 8 ]
+"44
+} 0
+"50 C:\Users\Raphael\Google Drive\pvt\ads1231_lib.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"59
+} 0
+"75
+[v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
+{
+"79
+} 0
+"63 C:\Users\Raphael\Google Drive\pvt\ads1231_lib.X\mcc_generated_files/spi1.c
+[v _SPI1_Initialize SPI1_Initialize `(v  1 e 1 0 ]
+{
+"75
+} 0
+"81 C:\Users\Raphael\Google Drive\pvt\ads1231_lib.X\mcc_generated_files/mcc.c
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+{
+"95
+} 0
+"55 C:\Users\Raphael\Google Drive\pvt\ads1231_lib.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"110
+} 0
+"61 C:\Users\Raphael\Google Drive\pvt\ads1231_lib.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"73
+} 0
+"66 C:\Users\Raphael\Google Drive\pvt\ads1231_lib.X\mcc_generated_files/eusart.c
+[v _EUSART_Initialize EUSART_Initialize `(v  1 e 1 0 ]
+{
+"92
+} 0
+"170
+[v _EUSART_SetOverrunErrorHandler EUSART_SetOverrunErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART_SetOverrunErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 0 ]
+"172
+} 0
+"166
+[v _EUSART_SetFramingErrorHandler EUSART_SetFramingErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART_SetFramingErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 0 ]
+"168
+} 0
+"174
+[v _EUSART_SetErrorHandler EUSART_SetErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART_SetErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 0 ]
+"176
+} 0
+"77 C:\Users\Raphael\Google Drive\pvt\ads1231_lib.X\mcc_generated_files/spi1.c
+[v _SPI1_Open SPI1_Open `(a  1 e 1 0 ]
+{
+[v SPI1_Open@spi1UniqueConfiguration spi1UniqueConfiguration `E343  1 a 1 wreg ]
+[v SPI1_Open@spi1UniqueConfiguration spi1UniqueConfiguration `E343  1 a 1 wreg ]
+"79
+[v SPI1_Open@spi1UniqueConfiguration spi1UniqueConfiguration `E343  1 a 1 5 ]
+"90
+} 0
+"29 C:\Users\Raphael\Google Drive\pvt\ads1231_lib.X\ads1231.c
+[v _ADS1231_read ADS1231_read `(l  1 e 4 0 ]
+{
+[u S528 charto32bits 4 `ul 1 value_32 4 0 `[3]uc 1 value_8 3 0 ]
+"37
+[v ADS1231_read@value value `S528  1 a 4 10 ]
+"31
+[v ADS1231_read@value_32aux value_32aux `l  1 a 4 6 ]
+"51
+} 0
+"97 C:\Users\Raphael\Google Drive\pvt\ads1231_lib.X\mcc_generated_files/spi1.c
+[v _SPI1_ExchangeByte SPI1_ExchangeByte `(uc  1 e 1 0 ]
+{
+[v SPI1_ExchangeByte@data data `uc  1 p 1 0 ]
+"103
+} 0
+"24 C:\Users\Raphael\Google Drive\pvt\ads1231_lib.X\ads1231.c
+[v _ADS1231_is_ready ADS1231_is_ready `(uc  1 e 1 0 ]
+{
+"27
+} 0
